@@ -1,6 +1,4 @@
 import axios from 'axios';
-import dotenv from 'dotenv';
-dotenv.config();
 
 const DISCORD_API_BASE = 'https://discord.com/api';
 const BOT_TOKEN = process.env.BOT_TOKEN;
