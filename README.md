@@ -23,8 +23,7 @@ Set up github workflow with AWS access keys (github secret):
 - AWS_SECRET_ACCESS_KEY
 - AWS_REGION
 
-And then make sure the lambda function name is consistent from github workflow to AWS Lambda,
-Then lambda function will get updated after every push to main.
+And then make sure the lambda function name is consistent from github workflow to AWS Lambda, then lambda function will get updated after every push to main.
 
 ### Use AWS EventBridge for scheduling
 https://aws.amazon.com/eventbridge/
